@@ -1,0 +1,183 @@
+.tabAlign{
+   width: 70px;
+}
+/* Card 1 -------------------------------------- */
+.card1{
+  background: url(https://blush.design/api/download?shareUri=59O94UEw2cKZrWOA&c=Hair_0%7E603830_Skin_0%7Ed8936c&bg=d3c8ec&w=800&h=800&fm=png);
+  background-size: cover;
+  width: 280px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.2);
+  padding: 1px;
+  margin: 15px;
+  text-align: center;
+  max-width: 400px;
+  line-height: 30px;
+}
+
+.profile-pic{
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  left: 45px;
+  top: 30px;
+  border: 5px solid rgb(230, 230, 230);
+  cursor: pointer;
+}
+
+.card1-info{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: -20px;
+}
+
+.card1-info .username{
+  line-height: 2px;
+  padding: 1;
+  padding-left: 20px;
+}
+
+.card1-info .view-profile{
+  color: blueviolet;
+  font-weight: 600;
+  text-decoration: underline;
+  padding-bottom: 15px;
+}
+
+.card1-info .card1-text{
+  font-size: 15px;
+  position: relative;
+  /* border: 1px solid black; */
+  bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card1-text:first-of-type{
+  position: relative;
+  top: 6px;
+
+}
+
+.temperature-in-degree{
+  text-align: center;
+  color: blueviolet;
+  font-weight: 600;
+  font-size: large;
+}
+
+.card1-icon{
+  font-size: 25px;
+  padding-right: 10px;
+  position: relative;
+  top: 5px;
+}
+
+/* Card 2 ----------------------------------- */
+.card2{
+  /* background: url(https://blush.design/api/download?shareUri=59O94UEw2cKZrWOA&c=Hair_0%7E603830_Skin_0%7Ed8936c&bg=d3c8ec&w=800&h=800&fm=png); */
+  /* background-size: cover; */
+  width: 280px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 1px;
+  border: 1px solid rgba(181, 122, 237, 0.584);;
+  margin: 15px;
+  text-align: left;
+  padding: 10px;
+  max-width: 350px;
+  line-height: 20px;
+  position: relative;
+}
+
+.card2 .member-profile{
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-evenly;
+}
+
+.card2 .profile-picture{
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 50%;
+  border: 3px solid rgb(230, 230, 230);
+  cursor: pointer;
+}
+
+.card2 h4{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0 5px 0;
+  color: #000000b6;
+}
+
+.card2 p{
+  text-align: center;
+  font-size: 10px;
+  font-weight: 600;
+  color: gray;
+  padding: 0;
+  margin: 0 0 5px 0;
+
+}
+
+.right-arrow-icon{
+  position: absolute;
+  bottom: 5rem; /* Adjust as needed */
+  right: 5%; /* Move to the right middle */
+  transform: translateX(50%); /* Center horizontally */
+  font-size: 1.2rem; /* Adjust the font size as needed */
+  border: 0 solid blueviolet;
+  border-radius: 5px;
+  background-color: rgba(199, 150, 244, 0.587);
+  cursor: pointer;
+  outline: none;
+}
+
+/* Card 3----------------------------- */
+.card3{
+  width: 280px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 1px;
+  border: 1px solid rgba(181, 122, 237, 0.584);
+  margin: 15px;
+  text-align: left;
+  padding: 10px;
+  max-width: 350px;
+  line-height: 15px;
+  position: relative;
+}
+
+.card3-header{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0 5px 0;
+}
+
+.card3 h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0 5px 0;
+  color: #000000;
+}
+
+.card3 p{
+  position: absolute;
+  bottom: 20.0rem; /* Adjust as needed */
+  right: 5%; /* Move to the right middle */
+  transform: translatey(30%);
+  /* text-align: center; */
+  color: blueviolet;
+  font-weight: 600;
+}
+
+.barchart{
+  width: 100%;
+}
