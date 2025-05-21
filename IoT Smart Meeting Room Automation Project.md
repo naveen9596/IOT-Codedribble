@@ -111,4 +111,137 @@ To automate the operation of air conditioning and lighting in organizational mee
 
 ---
 
-Let me know if you'd like a Gantt chart or editable Excel tracker for this plan.
+### **3. Design Phase Document**
+
+#### **Objective:**
+
+To define the system architecture, design schematics for circuits, and develop the UI/UX layout for dashboard control.
+
+#### **Activities:**
+
+* Create high-level architecture (sensors → controller → server → dashboard)
+* Develop wiring schematics and connection diagrams
+* Design Node-RED flow or Flask-based UI mockups
+
+#### **Tools Used:**
+
+* Fritzing for circuit diagrams
+* Lucidchart/Draw\.io for architecture
+* Figma or Adobe XD for UI
+
+#### **Outputs:**
+
+* Architecture diagram
+* Sensor/device circuit diagrams
+* Dashboard UI wireframes
+
+---
+
+### **4. Development Phase Document**
+
+#### **Objective:**
+
+To build the firmware for ESP32, configure the edge server (Raspberry Pi), and develop the backend services and dashboards.
+
+#### **Tasks:**
+
+* Write Arduino code for ESP32
+* Setup MQTT broker on Raspberry Pi
+* Create Node-RED or Flask dashboard
+* Store logs in SQLite/InfluxDB
+
+#### **Tools & Languages:**
+
+* Arduino IDE, PlatformIO
+* Python, Node.js
+* Node-RED, MQTT
+* SQLite or InfluxDB
+
+#### **Version Control:**
+
+* GitHub / GitLab
+
+#### **Deliverables:**
+
+* Firmware binaries and source code
+* Functional local dashboard
+* Integration of all hardware and software components
+
+---
+
+### **5. Testing Phase Document**
+
+#### **Objective:**
+
+To validate the performance, reliability, and usability of the system.
+
+#### **Testing Types:**
+
+* Unit Testing (sensor input, relay output)
+* Integration Testing (end-to-end signal flow)
+* Stress Testing (long-duration usage)
+* UAT (User Acceptance Testing with admin/facility team)
+
+#### **Tools:**
+
+* MQTT Explorer
+* JMeter / Postman (for APIs)
+* Manual Testing Sheets
+
+#### **Deliverables:**
+
+* Test cases and results
+* Issue tracker and resolution report
+* Sign-off from stakeholders
+
+---
+
+### **6. Deployment Phase Document**
+
+#### **Objective:**
+
+To install and operationalize the smart devices in the meeting rooms.
+
+#### **Steps:**
+
+* Mount sensors and ESP devices securely
+* Connect devices to Wi-Fi and assign static IPs
+* Deploy Raspberry Pi server
+* Run system health checks
+* Conduct live demo
+
+#### **Outputs:**
+
+* Installation checklist
+* Device registry (location, MAC/IP)
+* Admin access and control guide
+
+---
+
+### **7. Monitoring & Maintenance Phase Document**
+
+#### **Objective:**
+
+To maintain continuous system uptime and identify improvements.
+
+#### **Monitoring Tools:**
+
+* Grafana (dashboard)
+* Node-RED (alerts)
+* Shell scripts or cron jobs (logs, backups)
+
+#### **Activities:**
+
+* Weekly log reviews
+* Alert tuning
+* Monthly performance reports
+
+#### **Deliverables:**
+
+* Maintenance log
+* Update tracker
+* Recommendations for system enhancement
+
+---
+
+Let me know if you'd like visual diagrams, dashboards, or code samples for any of these phases.
